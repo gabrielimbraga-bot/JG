@@ -26,7 +26,9 @@
     bottom: 0;
 }
 
-
+.jump {
+    animation: jump 500ms infinite ease-out;
+}
 
 @keyframes pipe-animation {
     from {
@@ -38,12 +40,28 @@
     }
 }
 
-inicio 0
 
-meio 180px
-
-fim 0
 
 @keyframes jump {
+
+    0% {
+        bottom: 0;
+    }
+
+    40% {
+        bottom: 180px;
+    }
+
+    50% {
+        bottom: 180px;
+    }
+
+    60% {
+        bottom: 180px;
+    }
+
+    100% {
+        bottom: 0;
+    }
 
 }
