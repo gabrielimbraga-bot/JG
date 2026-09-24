@@ -12,7 +12,13 @@ const jump = () => {
 const loop = setInterval(() => {
 
     const pipiPosition = pipe.offsetLeft;
-    console.log(pipePosition)
+
+    if (pipePosition <= 120) {
+
+        pipe.style.animatin = 'nome';
+
+    }
+
 
 }, 10);
 
