@@ -23,7 +23,7 @@
 .mario {
     width: 150px;
     position: absolute;
-    bottom: 0;
+    bottom: 120px;
 }
 
 .jump {
@@ -39,8 +39,6 @@
         right: 100%;
     }
 }
-
-
 
 @keyframes jump {
 
