@@ -10,15 +10,15 @@ const jump = () => {
 }
 
 const loop = setInterval(() => {
-
-    const pipiPosition = pipe.offsetLeft;
+    
+    const pipePosition = pipe.offsetLeft;
 
     if (pipePosition <= 120) {
 
-        pipe.style.animatin = 'nome';
-
+        pipe.style.animatin = 'none';
+        pipe.style.left =  `${pipePositio}px`;
+        
     }
-
 
 }, 10);
 
